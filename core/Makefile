@@ -1480,6 +1480,8 @@ endif
 	@echo -e ${CL_RED}"       \\\\/_/\\\\/_/"${CL_MAG}"\\\\/_____/"${CL_CYN}"\\\\/_/\\\\/_/"${CL_BLU}" \\\\/_/"${CL_RST}
 	@echo -e ""
 	@echo -e ${CL_CYN}"===========-Package complete-==========="${CL_RST}
+	@echo -e ${CL_CYN}" Espmartin's Most Awesome "${CL_RST}
+	@echo -e ${CL_CYN}" AOKP on the HTC Ace "${CL_RST}
 	@echo -e ${CL_CYN}"zip: "${CL_MAG} $(AOKP_TARGET_PACKAGE)${CL_RST}
 	@echo -e ${CL_CYN}"md5: "${CL_MAG}" `cat $(AOKP_TARGET_PACKAGE).md5sum | cut -d ' ' -f 1`"${CL_RST}
 	@echo -e ${CL_CYN}"size:"${CL_MAG}" `ls -lah $(AOKP_TARGET_PACKAGE) | cut -d ' ' -f 5`"${CL_RST}
